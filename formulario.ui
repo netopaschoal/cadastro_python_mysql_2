@@ -209,8 +209,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>400</y>
+      <x>300</x>
+      <y>420</y>
       <width>141</width>
       <height>51</height>
      </rect>
@@ -223,10 +223,34 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 170, 255);</string>
+     <string notr="true">background-color: rgb(0, 170, 255);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Enviar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>420</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Listar</string>
     </property>
    </widget>
   </widget>
